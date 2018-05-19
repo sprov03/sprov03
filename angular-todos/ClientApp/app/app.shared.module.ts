@@ -27,9 +27,11 @@ import { CounterComponent } from './components/counter/counter.component';
             { path: 'home', component: HomeComponent },
             { path: 'counter', component: CounterComponent },
             { path: 'fetch-data', component: FetchDataComponent },
-            { path: '**', redirectTo: 'home' }
+            { path: 'todos', component:  },
+            { path: '**', redirectTo: 'home' },
         ])
     ]
 })
+
 export class AppModuleShared {
 }
